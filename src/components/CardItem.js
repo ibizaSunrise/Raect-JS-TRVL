@@ -7,8 +7,8 @@ export default function CardItem(props) {
             <li className="card-item">
                 <Link className="card-item__link" to={props.path}>
                     <figure className="card-item__img-wrap" data-category={props.label}>
-                        <img src={props.src} 
-                        alt="Travel" className="card-item__img" />
+                        <img src={props.src}
+                            alt="Travel" className="card-item__img" />
                     </figure>
                     <div className="card-item__info">
                         <h5 className="card-item__text">{props.text}</h5>
